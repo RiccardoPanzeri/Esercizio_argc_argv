@@ -33,7 +33,7 @@ int main(int argc, char** argv) { //argv è un puntatore doppio, ovvero una matr
 	}
 
 	if (esitoPos == true) { // se la chiamata è andata a buon fine e il parametro inserito è valido, allora visualizzerò il risultato.
-		cout << a <<  operatore  <<" " << b << " = " << risultato << endl;
+		cout << a << " " << operatore << " " << b << " = " << risultato << endl;
 	}
 	else { //altrimenti visualizzerò un messaggio di errore;
 		cout << "Parametro non valido." << endl;
